@@ -41,7 +41,7 @@ nav ul li{
 }
 
 /* middle see ti acction */
-section{
+.see-section{
     display: flex;
     justify-content: space-between;
     margin: 120px 140px;
@@ -60,6 +60,41 @@ section{
     font-size: 16px;
     line-height: 1.8;
 }
+
+/* user style */
+.mid-section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 38px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.section-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    margin: 0 auto;
+}
+.item-description{
+    font-size: 20px;
+    color: #160101;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.secondary-bg{
+    background-color: #E5E7FF;
+}
+.joined{
+    margin: 0px 140px;
+    border-radius: 25px;
+}
+
 
 /* header style */
 
