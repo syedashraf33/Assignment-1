@@ -117,5 +117,32 @@ nav ul li{
     margin-top: 20px;
     margin-bottom: 20px;
     border: none;
-
+}
+/* footer section */
+.website-name{
+    margin-top: 100px;
+}
+.website-name h1{
+    text-align: center;
+    font-size: 100px;
+    margin: 0 auto;
+    color: #4E47FF;   
+}
+.website-name P{
+    text-align: center;
+    line-height: 1.5;
+    color: rgb(183, 189, 195);
+}
+.website-name ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.website-name li a{
+    text-decoration: none;
+    margin-right: 50px;
+}
+/* shared style */
+.font-color{
+    color: rgb(183, 189, 195);
 }
