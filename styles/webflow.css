@@ -1,3 +1,7 @@
+header{
+    background-image: url('../Assets/Hero-bg.png');
+    width: 100%;
+}
 .inter-normal{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -8,7 +12,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 35px 150px;
+    margin: 0px 150px;
 }
 .nav-titile{
     font-size: 35px;
@@ -27,6 +31,11 @@ nav ul li{
     border-radius: 5px;
     border: none;
 }
+.stay-b{
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
 /* banner styles */
 
 .banner{
@@ -38,6 +47,7 @@ nav ul li{
 .banner-text{
     font-size: 65px;
     font-weight: 700;
+    margin: 0 auto;
 }
 
 /* middle see ti acction */
@@ -96,6 +106,10 @@ nav ul li{
 }
 
 /* touch section */
+.touch-section{
+    font-size: 30px;
+    font-weight: 600;
+}
 .touch-title{
     font-size: 95px;
 }
